@@ -1,1 +1,270 @@
-<h1>Hello world</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>三维图表</title>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="title">3D图表</h1>
+    <p class="desc">
+        本图表基于底层引擎<a href="https://www.npmjs.com/package/mmgl" target="blank">MMGL</a>开发的一套图表,弥补二维图表的不足，数据可以在相同的坐标系中
+        展示多维数据，主要有柱状图、饼图、折线图、面积图、魔方图等
+        以下是公司内部的相关demo截图，具体如何使用请看下面的示例代码，在使用中如果碰到问题,您可以提<a href="https://github.com/Davidyanlong/chartx3d/issues"
+            target="blank">Issus</a>给我。
+    </p>
+    <div class="mb30">
+        <img class="deom-img" src="https://img.alicdn.com/tfs/TB1kNRje7T2gK0jSZFkXXcIQFXa-2582-1362.png">
+        <img class="deom-img" src="https://img.alicdn.com/tfs/TB1EUdfe9f2gK0jSZFPXXXsopXa-2610-1108.png">
+        <img class="deom-img" src="https://img.alicdn.com/tfs/TB1KHVee1T2gK0jSZFvXXXnFXXa-2662-1140.png">
+    </div>
+
+    <div class="demo-area">
+        <div class="demo-title">柱状图 <span class="tip">柱状图+tip提示</span></div>
+        <div>
+            <p class="codepen" data-height="700" data-theme-id="dark" data-default-tab="js,result"
+                data-user="davidyanlong" data-slug-hash="LYPzZPN"
+                style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="柱子图">
+                <span>See the Pen <a href="https://codepen.io/davidyanlong/pen/LYPzZPN/">
+                        柱子图</a> by Davidyanlong (<a href="https://codepen.io/davidyanlong">@davidyanlong</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </div>
+
+    <div class="demo-area">
+        <div class="demo-title">柱状图 <span class="tip">多列柱状图</span></div>
+        <div>
+            <p class="codepen" data-height="700" data-theme-id="dark" data-default-tab="js,result"
+                data-user="davidyanlong" data-slug-hash="MWgEeWR"
+                style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="多列柱状图">
+                <span>See the Pen <a href="https://codepen.io/davidyanlong/pen/MWgEeWR/">
+                        多列柱状图</a> by Davidyanlong (<a href="https://codepen.io/davidyanlong">@davidyanlong</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </div>
+
+    <div class="demo-area">
+        <div class="demo-title">柱状图 <span class="tip">堆叠柱状图</span></div>
+        <div>
+            <p class="codepen" data-height="700" data-theme-id="dark" data-default-tab="js,result"
+                data-user="davidyanlong" data-slug-hash="gOYGMpX"
+                style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="堆叠柱状图">
+                <span>See the Pen <a href="https://codepen.io/davidyanlong/pen/gOYGMpX/">
+                        堆叠柱状图</a> by Davidyanlong (<a href="https://codepen.io/davidyanlong">@davidyanlong</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </div>
+
+    <div class="demo-area">
+        <div class="demo-title">柱状图 <span class="tip">多图形柱状图</span></div>
+        <div>
+            <p class="codepen" data-height="700" data-theme-id="dark" data-default-tab="js,result"
+                data-user="davidyanlong" data-slug-hash="eYOGzpq"
+                style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="多图形柱状图">
+                <span>See the Pen <a href="https://codepen.io/davidyanlong/pen/eYOGzpq/">
+                        多图形柱状图</a> by Davidyanlong (<a href="https://codepen.io/davidyanlong">@davidyanlong</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </div>
+
+
+    <div class="demo-area">
+        <div class="demo-title">折线图 <span class="tip">简单折线图</span></div>
+        <div>
+            <p class="codepen" data-height="700" data-theme-id="dark" data-default-tab="js,result"
+                data-user="davidyanlong" data-slug-hash="vYBeRbR"
+                style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="简单折线图">
+                <span>See the Pen <a href="https://codepen.io/davidyanlong/pen/vYBeRbR/">
+                        简单折线图</a> by Davidyanlong (<a href="https://codepen.io/davidyanlong">@davidyanlong</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </div>
+
+    <div class="demo-area">
+        <div class="demo-title">折线图 <span class="tip">多轴折线图</span></div>
+        <div>
+            <p class="codepen" data-height="700" data-theme-id="dark" data-default-tab="js,result"
+                data-user="davidyanlong" data-slug-hash="vYBeRMj"
+                style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="多轴折线图">
+                <span>See the Pen <a href="https://codepen.io/davidyanlong/pen/vYBeRMj/">
+                        多轴折线图</a> by Davidyanlong (<a href="https://codepen.io/davidyanlong">@davidyanlong</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </div>
+
+
+    <div class="demo-area">
+        <div class="demo-title">折线图 <span class="tip">多轴折线堆叠图</span></div>
+        <div>
+            <p class="codepen" data-height="700" data-theme-id="dark" data-default-tab="js,result"
+                data-user="davidyanlong" data-slug-hash="gOYGeNB"
+                style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="多轴折线堆叠图">
+                <span>See the Pen <a href="https://codepen.io/davidyanlong/pen/gOYGeNB/">
+                        多轴折线堆叠图</a> by Davidyanlong (<a href="https://codepen.io/davidyanlong">@davidyanlong</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </div>
+
+
+    <div class="demo-area">
+        <div class="demo-title">折线图 <span class="tip">柱折组合图</span></div>
+        <div>
+            <p class="codepen" data-height="700" data-theme-id="dark" data-default-tab="js,result"
+                data-user="davidyanlong" data-slug-hash="vYBejBr"
+                style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="柱折组合图">
+                <span>See the Pen <a href="https://codepen.io/davidyanlong/pen/vYBejBr/">
+                        柱折组合图</a> by Davidyanlong (<a href="https://codepen.io/davidyanlong">@davidyanlong</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </div>
+
+
+    <div class="demo-area">
+        <div class="demo-title">热力图 <span class="tip">魔方热力图</span></div>
+        <div>
+            <p class="codepen" data-height="700" data-theme-id="dark" data-default-tab="js,result"
+                data-user="davidyanlong" data-slug-hash="WNeZJNV"
+                style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="热力魔方图">
+                <span>See the Pen <a href="https://codepen.io/davidyanlong/pen/WNeZJNV/">
+                        热力魔方图</a> by Davidyanlong (<a href="https://codepen.io/davidyanlong">@davidyanlong</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </div>
+
+    <div class="demo-area">
+        <div class="demo-title">饼图 <span class="tip">简单配置</span></div>
+        <div>
+            <p class="codepen" data-height="700" data-theme-id="dark" data-default-tab="js,result"
+                data-user="davidyanlong" data-slug-hash="vYBeGZL"
+                style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="vYBeGZL">
+                <span>See the Pen <a href="https://codepen.io/davidyanlong/pen/vYBeGZL/">
+                        vYBeGZL</a> by Davidyanlong (<a href="https://codepen.io/davidyanlong">@davidyanlong</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </div>
+    <div class="demo-area">
+        <div class="demo-title">饼图 <span class="tip">有图例的饼图</span></div>
+        <div>
+            <p class="codepen" data-height="700" data-theme-id="0" data-default-tab="js,result" data-user="davidyanlong"
+                data-slug-hash="BaBwKNL"
+                style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="BaBwKNL">
+                <span>See the Pen <a href="https://codepen.io/davidyanlong/pen/BaBwKNL/">
+                        BaBwKNL</a> by Davidyanlong (<a href="https://codepen.io/davidyanlong">@davidyanlong</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </div>
+    <div class="demo-area">
+        <div class="demo-title">饼图 <span class="tip">丁格尔玫瑰图</span></div>
+        <div>
+            <p class="codepen" data-height="700" data-theme-id="dark" data-default-tab="js,result"
+                data-user="davidyanlong" data-slug-hash="KKPXzxB"
+                style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="丁格尔玫瑰图">
+                <span>See the Pen <a href="https://codepen.io/davidyanlong/pen/KKPXzxB/">
+                        丁格尔玫瑰图</a> by Davidyanlong (<a href="https://codepen.io/davidyanlong">@davidyanlong</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </div>
+
+    <div class="demo-area">
+        <div class="demo-title">饼图 <span class="tip">不同高度的甜甜圈</span></div>
+        <div>
+            <p class="codepen" data-height="700" data-theme-id="dark" data-default-tab="js,result"
+                data-user="davidyanlong" data-slug-hash="zYOEqmV"
+                style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="不同高度的甜甜圈">
+                <span>See the Pen <a href="https://codepen.io/davidyanlong/pen/zYOEqmV/">
+                        不同高度的甜甜圈</a> by Davidyanlong (<a href="https://codepen.io/davidyanlong">@davidyanlong</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </div>
+
+    <div class="demo-area">
+        <div class="demo-title">饼图 <span class="tip">不同高度的饼图</span></div>
+        <div>
+            <p class="codepen" data-height="700" data-theme-id="dark" data-default-tab="js,result"
+                data-user="davidyanlong" data-slug-hash="NWKaNoY"
+                style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="不同高度的饼图">
+                <span>See the Pen <a href="https://codepen.io/davidyanlong/pen/NWKaNoY/">
+                        不同高度的饼图</a> by Davidyanlong (<a href="https://codepen.io/davidyanlong">@davidyanlong</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </div>
+
+    <div class="demo-area">
+        <div class="demo-title">饼图 <span class="tip">不满360度的甜甜圈</span></div>
+        <div>
+            <p class="codepen" data-height="700" data-theme-id="dark" data-default-tab="js,result"
+                data-user="davidyanlong" data-slug-hash="wvwrGby"
+                style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="不满360度的甜甜圈">
+                <span>See the Pen <a href="https://codepen.io/davidyanlong/pen/wvwrGby/">
+                        不满360度的甜甜圈</a> by Davidyanlong (<a href="https://codepen.io/davidyanlong">@davidyanlong</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </div>
+
+    <div class="demo-area">
+        <div class="demo-title">面积图 <span class="tip">面积图与最大最小值展示</span></div>
+        <div>
+            <p class="codepen" data-height="700" data-theme-id="dark" data-default-tab="js,result"
+                data-user="davidyanlong" data-slug-hash="wvwrGPq"
+                style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="面积图">
+                <span>See the Pen <a href="https://codepen.io/davidyanlong/pen/wvwrGPq/">
+                        面积图</a> by Davidyanlong (<a href="https://codepen.io/davidyanlong">@davidyanlong</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </div>
+
+</body>
+
+</html>
